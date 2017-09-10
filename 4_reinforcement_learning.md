@@ -78,4 +78,35 @@ return อาจเยอะเป็น infinity
 
 
 ### Value Function
-[Bellman equation]
+[Bellman Expection equation]
+
+# Dynamic Programming (DP)
+## Policy evaluation --> policy PI
+[Evaluate and Improve]
+"Policy Iteration"
+
+## Limitation
+- Curse of demensionality (so many states - เปลืองmem)
+- require a complete and accurate model of the environment (ต้องรู้ transition propability)
+
+# Temporal - Different (TD) learning
+เรียนรู้ได้โดยตรงจาก episode
+model-free ไม่ต้องรู้ MDP transitions/reward
+เรียนรู้จาก incomplete episode ได้
+
+alpha in TD is learning rate
+
+# Q-Learning
+Iterate Q factor
+
+DQN: Deep Q network
+
+##Approximation
+- most RL problems มี state space เยอะ
+- generalize ใช้ประมาณค่าทำ approximation
+
+** Deep Learning: เอา Neural Network มาช่วย approximate ค่า q **
+
+Convolution, Convolution, Fully Connected, Fully connected (key control)
+(deep-mind)
+
